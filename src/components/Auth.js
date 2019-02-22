@@ -34,6 +34,7 @@ class Auth extends Component {
             accessToken: ""
         });
         console.log('logged out');
+        window.history.replace('/');
     };
 
     handleAuthentication = () => {
