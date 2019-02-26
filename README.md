@@ -3,7 +3,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # RBAC sample
 
 This is a POC for Role-based Access Control in a React app using Auth0 as the
-authentication provider. 
+authentication provider. This code is almost entirely based on 
+[Role-Based Access Control and React Apps](https://auth0.com/blog/role-based-access-control-rbac-and-react-apps/)
+by Aditya Agarwal. The only material difference is that this version
+supports multiple roles per user.
 
 Set Auth0 domain and clientId in `src/auth0-variables.js`.
 
